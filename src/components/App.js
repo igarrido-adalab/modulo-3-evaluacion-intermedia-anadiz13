@@ -1,8 +1,12 @@
 import React from "react";
 import "../stylesheets/App.scss";
+import PokeList from "./PokeList";
+import pokemon from "../data/data.json";
 
-function App() {
-  return <div></div>;
+class App extends React.Component {
+  render() {
+    return <PokeList pokemon={pokemon} />;
+  }
 }
 
 export default App;
