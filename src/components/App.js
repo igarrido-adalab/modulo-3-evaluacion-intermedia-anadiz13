@@ -5,7 +5,7 @@ import Pokemon from "../data/data.json";
 
 class App extends React.Component {
   render() {
-    return <PokeList pokemon={pokemon} />;
+    return <PokeList pokemon={Pokemon} />;
   }
 }
 
